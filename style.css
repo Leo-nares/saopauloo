@@ -1,0 +1,48 @@
+body{
+    font: normal 20px Arial;
+    background-color: rgb(67, 0, 0);
+    color:rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(14, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    color:azure;
+}
+.video{
+    padding-bottom: 35px;
+}
+.titulo{
+    text-align: left;
+    font-size: 25px;
+    padding-left: 2%;
+}
+section{
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto; /*O auto fixa o elemento na pagina. Teste o arquivo no provedor para entender melhor*/
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.304);
+    /*display: block;*/
+}
+.vid1{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.vid1 img{
+    opacity: 0.6;
+    height: 200px;
+}
+.vid1 img:hover{
+    border: 5px solid rgb(0, 68, 255);
+    opacity: 1.0;
+    height: 210px;
+}
+.videos{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.304);
+}
